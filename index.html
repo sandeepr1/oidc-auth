@@ -1,9 +1,11 @@
 <html>
 
-<body onload="load()">
+<body onload="app()">
+    <h1>Hello CWA-2</h1>
     <script>
-        function load(){
-            alert("hello");
+        function app(){
+            let parms= window.location.search.substring(1);
+            alert(parms);
         }
     </script>
 </body>
