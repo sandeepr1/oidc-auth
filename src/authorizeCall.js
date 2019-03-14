@@ -62,7 +62,7 @@ class Authorize extends Component {
             return query_string;
           }
             // Optionally the request above could also be done as
-            axios.get('http://ec2-3-8-115-70.eu-west-2.compute.amazonaws.com/authorize', {
+            axios.get('http://ec2-35-176-218-20.eu-west-2.compute.amazonaws.com/authorize', {
                 params: {
                     response_type: "id_token token",
                     client_id:"641bb8db-98b3-47bb-8707-b86b6b5cf3df",
